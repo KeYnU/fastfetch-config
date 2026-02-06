@@ -4,8 +4,8 @@
 ![Example](examples/example.png)
 
 ## Requirements
-* **Terminal:** [Kitty] (for image support)
-* **Font:** [JetBrainsMono Nerd Font] (to display icons correctly)
+* **Terminal:** Kitty (or Ghostty)
+* **Font:** JetBrainsMono Nerd Font (for icons)
 
 ## Installation
 
