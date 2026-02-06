@@ -6,11 +6,12 @@
 ## Requirements
 * **Terminal:** Kitty (or Ghostty)
 * **Font:** JetBrainsMono Nerd Font (for icons)
-
 ## Installation
 
-**Clone to your config directory:**
-
+**If you already had a config, delete it by this command:**
 ```bash
-mkdir -p ~/.config/fastfetch
-git clone https://github.com/KeYnU/fastfetch-config ~/.config/fastfetch
+rm -rf ~/.config/fastfetch
+```
+**Then install by this command**
+```bash
+git clone https://github.com/KeYnU/fastfetch-config.git && mkdir -p ~/.config/fastfetch && cp fastfetch-config/config.jsonc ~/.config/fastfetch/config.jsonc && cp fastfetch-config/*.png ~/.config/fastfetch/
