@@ -16,6 +16,3 @@ Clean and stylish fastfetch configuration.
 ```bash
 mkdir -p ~/.config/fastfetch
 git clone https://github.com/KeYnU/fastfetch-config ~/.config/fastfetch
-
----
-
