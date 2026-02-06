@@ -9,11 +9,12 @@
   },
   "display": {
     "separator": " \u001b[38;2;123;169;164m➜\u001b[0m ",
+    "color": "blue",
     "key": { "width": 12 },
     "percent": { "type": 3 },
     "bar": {
       "char": { "elapsed": "\u001b[38;2;123;169;164m■\u001b[0m", "total": "─" },
-      "border": { "left": "▐", "right": "▌" },
+      "border": { "left": "[", "right": "]" },
       "width": 12
     }
   },
@@ -22,27 +23,30 @@
       "type": "title", 
       "format": "  \u001b[38;2;123;169;164m{user-name}\u001b[0m@\u001b[38;2;176;184;102m{host-name}\u001b[0m" 
     },
-    
-    /* SOFTWARE SECTION */
     { "type": "custom", "format": "\u001b[38;2;123;169;164m╭───────────────────────────── Software ─────────────────────────────╮\u001b[0m" },
     { "type": "os",       "key": "│ \u001b[38;2;123;169;164m OS \u001b[0m" },
     { "type": "kernel",   "key": "│ \u001b[38;2;123;169;164m Ker\u001b[0m" },
     { "type": "shell",    "key": "│ \u001b[38;2;123;169;164m Shl\u001b[0m" },
     { "type": "packages", "key": "│ \u001b[38;2;123;169;164m Pkg\u001b[0m" },
+    { 
+      "type": "uptime",   
+      "key": "│ \u001b[38;2;123;169;164m Upt\u001b[0m",
+      "format": "{1}d {2}h {3}m" 
+    },
     { "type": "custom",   "format": "\u001b[38;2;123;169;164m╰────────────────────────────────────────────────────────────────────╯\u001b[0m" },
-
     "break",
-
-    /* HARDWARE SECTION */
     { "type": "custom", "format": "\u001b[38;2;176;184;102m╭───────────────────────────── Hardware ─────────────────────────────╮\u001b[0m" },
     { "type": "cpu",    "key": "│ \u001b[38;2;176;184;102m CPU \u001b[0m" },
     { "type": "gpu",    "key": "│ \u001b[38;2;176;184;102m GPU \u001b[0m" },
     { "type": "memory", "key": "│ \u001b[38;2;176;184;102m RAM \u001b[0m" },
     { "type": "disk",   "key": "│ \u001b[38;2;176;184;102m Disk\u001b[0m", "folders": "/" },
+    { 
+      "type": "battery",
+      "key": "│ \u001b[38;2;176;184;102m Bat \u001b[0m",
+      "percent": { "type": 1 } 
+    },
     { "type": "custom",   "format": "\u001b[38;2;176;184;102m╰────────────────────────────────────────────────────────────────────╯\u001b[0m" },
-
     "break",
-
     { "type": "colors", "key": "   Col", "symbol": "circle" }
   ]
 }
