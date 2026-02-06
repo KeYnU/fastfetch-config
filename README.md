@@ -1,5 +1,3 @@
-# Fastfetch Config
-
 ## Preview
 First one was made on my laptop
 
