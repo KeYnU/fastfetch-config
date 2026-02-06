@@ -1,8 +1,12 @@
 # Fastfetch Config
 
 ## Preview
-![Example](examples/example.png)
+First one was made on my laptop
 
+![Example](examples/example.png)
+Second one was made on my main pc
+
+![Example](examples/example2.png)
 ## Requirements
 * **Terminal:** Kitty (or Ghostty)
 * **Font:** JetBrainsMono Nerd Font (for icons)
