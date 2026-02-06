@@ -1,7 +1,5 @@
 # Fastfetch Config
 
-Clean and stylish fastfetch configuration.
-
 ## Preview
 ![Example](examples/example.png)
 
